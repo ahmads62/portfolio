@@ -1,0 +1,53 @@
+best practice is make your repo on github and then download/
+clone in your local computer
+push and pull 
+
+URL to clone https://github.com/ahmads62/portfolio.git
+SSH 		git@github.com:ahmads62/portfolio.git
+CLI 		gh repo clone ahmads62/portfolio
+
+git config --list
+git log -2 last two commits
+
+
+git clone git@github.com:ahmads62/portfolio.git
+
+git status 
+show
+
+git commit -a -m "message"
+
+-a all modified files 
+-m "message" 
+
+
+
+git push send local to github repo (remote)
+git push origin main 
+git pull get github(remote) changes to local 
+
+git remote 
+git remote -v    verbose mode show remote repos
+
+git push origin main 
+push you local changes to the remote (origin) branch (main)
+
+if you have something on your local computer and
+you want to turn the files/folders to git repo
+
+cd in the intended folder
+git init
+
+git status will show untracked files
+
+git add -- add a new file to cache and them commit
+
+git add . -- will add all the new files in the folders
+
+git commit -a -m "message"
+got to github create an empty repo copy the git repo url
+git remote add origin (git repo url)
+
+changes made on github repo can be fetched down to local
+git pull origin main
+
